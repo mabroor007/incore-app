@@ -8,7 +8,7 @@ const app = express();
 app.set("view engine", "ejs");
 
 // static files
-app.use(express.static("public"));
+app.use(express.static("Public"));
 
 // routes
 app.use("/", Router);
