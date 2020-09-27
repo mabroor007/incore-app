@@ -1,0 +1,23 @@
+{
+  "name": "incore-app",
+  "version": "1.0.0",
+  "description": "this is a website for interior design.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabroor007/incore-app.git"
+  },
+  "author": "Mabroor Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mabroor007/incore-app/issues"
+  },
+  "homepage": "https://github.com/mabroor007/incore-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
