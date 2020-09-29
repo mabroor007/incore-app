@@ -149,7 +149,6 @@ main {
   border-radius: 4px;
 }
 .fno {
-  /* flex-grow: 2; */
   height: 100%;
   display: flex;
   align-items: center;
@@ -163,7 +162,6 @@ main {
   border-radius: 50%;
 }
 .ftitle {
-  /* flex-grow: 3; */
   height: 100%;
   display: flex;
   align-items: center;
