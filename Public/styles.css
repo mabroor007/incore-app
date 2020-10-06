@@ -204,6 +204,7 @@ main {
   background-color: white;
   background-image: url("https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
+  background-position: center;
   width: 80%;
   height: 550px;
   margin-left: 10rem;
@@ -367,5 +368,8 @@ main {
   }
   .centerimg {
     width: 100%;
+  }
+  .fb1 {
+    top: 3%;
   }
 }
