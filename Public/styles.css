@@ -373,3 +373,29 @@ main {
     top: 3%;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .fpheadline {
+    font-weight: 500;
+  }
+  .fpheroimg {
+    height: 400px;
+  }
+  .fplabel {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    width: auto;
+    bottom: 5%;
+  }
+  .h2heading {
+    width: 400px;
+    font-size: 1.5rem;
+  }
+  .h2img {
+    width: 100%;
+  }
+  .fb3 {
+    top: 58%;
+    right: 3%;
+  }
+}
