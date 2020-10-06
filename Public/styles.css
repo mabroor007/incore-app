@@ -347,6 +347,9 @@ main {
     margin: auto;
     width: 80%;
   }
+  .centerimg {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -361,5 +364,8 @@ main {
 @media screen and (max-width: 850px) {
   .fpheadline {
     font-size: 2rem;
+  }
+  .centerimg {
+    width: 100%;
   }
 }
