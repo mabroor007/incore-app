@@ -398,4 +398,39 @@ main {
     top: 58%;
     right: 3%;
   }
+  header nav .main-web-logo {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .left-half h1 {
+    width: 80vw;
+    margin-left: 5vw;
+    background-color: rgba(255, 255, 255, 0.63);
+  }
+  .h2heading {
+    left: 5%;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.63);
+  }
+  .fb2 {
+    top: 30%;
+  }
+  .fb2,
+  .fb3 {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .featurebox {
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 290px;
+  }
+  .fplabel {
+    padding: 1rem;
+    width: 90%;
+  }
+  .fifthptextsect {
+    width: 90%;
+  }
 }
