@@ -12,7 +12,6 @@ this is an application built for demonstration of my work skills.
 2 - ejs
 3 - html
 4 - css
-5 - gsap
 
 # Resources
 
