@@ -21,3 +21,7 @@ All the resources that were used to build this project { images } were taken fro
 # final
 
 The project is complete and i dont plan on doing more in this project.
+
+# Deployed
+
+You can have a look at the url at https://blossom69.herokuapp.com/
