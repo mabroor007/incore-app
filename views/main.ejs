@@ -5,7 +5,7 @@
     <section class="wrapper">
       <header>
         <nav>
-          <div class="main-web-logo">Incore</div>
+          <div class="main-web-logo">Blossom</div>
         </nav>
       </header>
       <main>
@@ -15,7 +15,10 @@
           <a href="#" class="link">twitter</a>
         </div>
         <div class="left-half">
-          <h1>Lets Make Your Interior Better</h1>
+          <h1 id="lefthalfheadline">
+            Lets Make Your Interior Better
+            <button class="call-to-action">Lets go!</button>
+          </h1>
         </div>
         <div class="right-half"></div>
       </main>
@@ -69,5 +72,182 @@
         </div>
       </section>
     </section>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.from(".h2img", {
+        scrollTrigger: {
+          trigger: ".h2img",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=500",
+        },
+        x: -500,
+        delay: 0.2,
+      });
+
+      gsap.from(".h2heading", {
+        scrollTrigger: {
+          trigger: ".h2heading",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        x: +500,
+        delay: 0.2,
+      });
+
+      gsap.from(".fb1", {
+        scrollTrigger: {
+          trigger: ".fb1",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        x: +500,
+        delay: 0.2,
+      });
+
+      gsap.from(".fb2", {
+        scrollTrigger: {
+          trigger: ".fb2",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        x: -500,
+        delay: 0.2,
+      });
+
+      gsap.from(".fb3", {
+        scrollTrigger: {
+          trigger: ".fb3",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=100",
+        },
+        x: 500,
+        delay: 0.2,
+      });
+
+      gsap.from(".centerimg", {
+        scrollTrigger: {
+          trigger: ".centerimg",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=300",
+        },
+        scale: 0.5,
+        delay: 0.2,
+      });
+
+      gsap.from(".fpback", {
+        scrollTrigger: {
+          trigger: ".fpback",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=300",
+        },
+        scale: 0.5,
+        delay: 0.2,
+      });
+
+      gsap.from(".fpheroimg", {
+        scrollTrigger: {
+          trigger: ".fpheroimg",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=300",
+        },
+        y: 150,
+        scale: 0.5,
+        delay: 0.2,
+      });
+
+      gsap.from(".fplabel", {
+        scrollTrigger: {
+          trigger: ".fplabel",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=50",
+        },
+        y: 150,
+        delay: 0.2,
+      });
+
+      gsap.from(".fifthpimgsect", {
+        scrollTrigger: {
+          trigger: ".fifthpimgsect",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        x: -200,
+        delay: 0.2,
+      });
+
+      gsap.from(".fifthptextsect", {
+        scrollTrigger: {
+          trigger: ".fifthptextsect",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        x: 200,
+        delay: 0.2,
+      });
+      gsap.from(".c1", {
+        scrollTrigger: {
+          trigger: ".c1",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        opacity: 0,
+        y: 200,
+        delay: 0.2,
+      });
+
+      gsap.from(".c3", {
+        scrollTrigger: {
+          trigger: ".c3",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        opacity: 0,
+        y: 200,
+        delay: 0.2,
+      });
+
+      gsap.from(".c2", {
+        scrollTrigger: {
+          trigger: ".c2",
+          scrub: 1,
+          start: "top bottom",
+          end: "+=400",
+        },
+        opacity: 0,
+        y: 200,
+        delay: 0.2,
+      });
+
+      gsap.from(".main-web-logo", { y: -100, opacity: 0, duration: 1 });
+      gsap.from(".right-half", {
+        x: 100,
+        opacity: 0,
+        scale: 0.6,
+        duration: 1,
+      });
+      gsap.from("#lefthalfheadline", {
+        x: -100,
+        delay: 0.5,
+        opacity: 0,
+        scale: 1.6,
+        duration: 0.8,
+        zIndex: 10,
+      });
+      gsap.from(".links", { opacity: 0, delay: 1, duration: 1 });
+    </script>
   </body>
 </html>

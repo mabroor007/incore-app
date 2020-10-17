@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mabroor007/incore-app#readme",
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "gsap": "^3.5.1"
   }
 }
